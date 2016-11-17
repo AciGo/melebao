@@ -1,0 +1,11 @@
+<div class="newsMain inner">
+    <div class="title">
+        <h2>新闻活动</h2>
+    </div>
+    <ul class="content">
+        <li ng-repeat="new in data.news | filter:showByCategory | range:currentPage:pageSize"><a class="clearFloat" href=""><span class="fl">{{new.title}}</span><span class="fr">{{new.date}}</span></a></li>
+    </ul>
+    <div class="btn">
+        <a href="" ng-repeat="new in data.news | pageCount:pageSize" ng-click="selectPage(new)" ng-class="activePageClass(new)">{{new}}</a>
+    </div>
+</div>

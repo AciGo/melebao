@@ -1,0 +1,9 @@
+<div class="showMain inner">
+    <ul class="classBtn clearFloat">
+        <!--<li class="fl" ng-click="selectType(null)"  ng-class="getActiveClass(null)">全部</li>-->
+        <li class="fl" ng-repeat="type in data.types"  ng-class="getActiveClass(type.type)" ng-click="selectType(type.type)">{{type.name}}</li>
+    </ul>
+    <ul class="classShow clearFloat">
+        <li class="fl" ng-repeat="class in data.classs |  filter:showByType"><a href=""><img ng-src="{{class.imgSrc}}"><h2>{{class.class}}</h2></a></li>
+    </ul>
+</div>

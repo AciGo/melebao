@@ -1,0 +1,11 @@
+[
+  {"class":"苗苗班（1）","imgSrc":"images/miaomiao.png","type":"苗班"},
+  {"class":"苗一班","imgSrc":"images/miaomiao.png","type":"苗班"},
+  {"class":"小班（1）","imgSrc":"images/xiaoban.png","type":"小班"},
+  {"class":"小一班","imgSrc":"images/xiaoban.png","type":"小班"},
+  {"class":"小二班","imgSrc":"images/xiaoban.png","type":"小班"},
+  {"class":"小三班","imgSrc":"images/xiaoban.png","type":"小班"},
+  {"class":"中一班","imgSrc":"images/zhongban.png","type":"中班"},
+  {"class":"大班（1）","imgSrc":"images/daban.png","type":"大班"},
+  {"class":"大一班","imgSrc":"images/daban.png","type":"大班"}
+]
